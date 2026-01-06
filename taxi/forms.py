@@ -6,6 +6,7 @@ from .models import Car, Manufacturer
 
 User = get_user_model()
 
+
 class DriverCreationForm(UserCreationForm):
     class Meta(UserCreationForm.Meta):
         model = User
